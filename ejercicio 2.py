@@ -10,3 +10,5 @@ textoentry = StringVar()
 entry1 = Entry(v0,textvar = textoentry).pack()
 label1 = Label(v0,textvar = mitexto).pack()
 b1 = Button(v0,text = "Escribir",command=lambda:cambiar_stringvar(textoentry.get(),mitexto)).pack()
+
+v0.mainloop()
